@@ -48,7 +48,7 @@ def merge_rule_result(qa_dataset, rule_dataset, n_proc=1, filter_empty=False):
         sample["graph_2"] = graph[qid]["graph_2"]
         if "graph" in sample:
             del sample["graph"]
-        return sample  # TODO: ignore the sample with zero paths.
+        return sample
 
     qa_dataset = qa_dataset.map(find_rule, num_proc=n_proc)
     if filter_empty:
