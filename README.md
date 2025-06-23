@@ -1,6 +1,6 @@
 # MKG4LLM
 
-The overall framework of paper 'Towards Combining Multiple Knowledge Graphs for Reliable Reasoning of Large Language Models'.
+The overall framework of paper 'Towards Combining Multiple Knowledge Graphs for Large Language Models Reasoning'.
 
 ![image](https://github.com/zhangzg1/MKG4LLM/blob/main/resources/framework.png)
 
